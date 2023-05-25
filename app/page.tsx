@@ -1,11 +1,15 @@
 import Image from "next/image";
-
+import Link from "next/link";
+import Piaic from "../public/Piaic.jpg";
 export default function Home() {
   return (
-    <div className="text-center font-bold font-sans">
-      <img
-        src="https://assets-global.website-files.com/620ed79721f9271deec09721/6231ba5d709a8481e55bddd0_Piaic.jpeg"
-        alt="piaic-logo-image" className="w-9/12 p-5 mx-40 justify-items-center"
+    <div className="bg-slate-400 text-center font-bold font-sans">
+
+      <Image className="flex  mx-40"
+        src={Piaic}
+        width={1000}
+        height={800}
+        alt="Picture of the author"
       />
       Hello World This is "PIAIC" Home Page...!
       <br />
