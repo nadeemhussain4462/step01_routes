@@ -10,7 +10,7 @@ export default function GiveAddress() {
       width={1000}
       alt="Pakistan img"
     />
-      I live in Karachi, Pakistan...!
+      I live in Karachi, Pakistan....!
     </div>
   );
 }
